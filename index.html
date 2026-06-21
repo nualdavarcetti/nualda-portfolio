@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nualda Varcetti | Music Producer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">NV</span>
+                <span class="logo-full">NUALDA VARCETTI</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">MUSIC PRODUCER</div>
+            <h1 class="hero-title">
+                Nualda <span class="highlight">Varcetti</span>
+            </h1>
+            <p class="hero-subtitle">UK & USA Rap Music Producer</p>
+            <p class="hero-description">
+                Specializing in crafting authentic rap beats and productions for the UK and US hip-hop scene. 
+                Bringing corporate precision to creative music production.
+            </p>
+            <div class="hero-cta">
+                <a href="#portfolio" class="btn btn-primary">View Portfolio</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Productions</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">UK/USA</div>
+                    <div class="stat-label">Market Focus</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-decoration">
+            <div class="flag-stripe uk-stripe"></div>
+            <div class="flag-stripe usa-stripe"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">ABOUT ME</div>
+                <h2 class="section-title">Professional Profile</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <div class="profile-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 18V5l12-2v13"></path>
+                                <circle cx="6" cy="18" r="3"></circle>
+                                <circle cx="18" cy="16" r="3"></circle>
+                            </svg>
+                        </div>
+                        <div class="profile-overlay">
+                            <span>NV</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Music Producer | Beat Maker | Sound Engineer</h3>
+                    <p>
+                        Saya adalah <strong>Nualda Varcetti</strong>, seorang produser musik yang berfokus pada genre rap dan hip-hop 
+                        untuk pasar <strong>United Kingdom</strong> dan <strong>United States of America</strong>.
+                    </p>
+                    <p>
+                        Dengan pendekatan yang profesional dan terstruktur seperti departemen di perusahaan besar, 
+                        saya menghadirkan produksi musik berkualitas tinggi dengan standar industri global. 
+                        Setiap track diproses dengan presisi, kreativitas, dan pemahaman mendalam tentang budaya rap UK & USA.
+                    </p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <span class="detail-label">Specialization:</span>
+                            <span class="detail-value">UK Rap, US Hip-Hop, Drill, Trap</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Location:</span>
+                            <span class="detail-value">Jakarta, Indonesia</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Availability:</span>
+                            <span class="detail-value">Open for Collaboration</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">PORTFOLIO</div>
+                <h2 class="section-title">Music Productions</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All Works</button>
+                <button class="filter-btn" data-filter="uk">UK Rap</button>
+                <button class="filter-btn" data-filter="usa">USA Hip-Hop</button>
+                <button class="filter-btn" data-filter="collab">Collaborations</button>
+            </div>
+            <div class="portfolio-grid">
+                <!-- Portfolio Item 1 -->
+                <div class="portfolio-item" data-category="uk">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <div class="image-placeholder portfolio-placeholder">
+                                <div class="music-icon">🎵</div>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <a href="#" class="play-btn">▶</a>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <div class="portfolio-category">UK Rap</div>
+                            <h3 class="portfolio-title">London Streets</h3>
+                            <p class="portfolio-desc">Drill beat with authentic UK flavor</p>
+                            <div class="portfolio-meta">
+                                <span class="meta-item">BPM: 140</span>
+                                <span class="meta-item">Key: Fm</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 2 -->
+                <div class="portfolio-item" data-category="usa">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <div class="image-placeholder portfolio-placeholder">
+                                <div class="music-icon">🎧</div>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <a href="#" class="play-btn">▶</a>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <div class="portfolio-category">USA Hip-Hop</div>
+                            <h3 class="portfolio-title">West Coast Vibes</h3>
+                            <p class="portfolio-desc">Classic G-funk inspired production</p>
+                            <div class="portfolio-meta">
+                                <span class="meta-item">BPM: 95</span>
+                                <span class="meta-item">Key: Gm</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 3 -->
+                <div class="portfolio-item" data-category="uk">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <div class="image-placeholder portfolio-placeholder">
+                                <div class="music-icon">🎤</div>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <a href="#" class="play-btn">▶</a>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <div class="portfolio-category">UK Rap</div>
+                            <h3 class="portfolio-title">Birmingham Flow</h3>
+                            <p class="portfolio-desc">Grime influenced instrumental</p>
+                            <div class="portfolio-meta">
+                                <span class="meta-item">BPM: 150</span>
+                                <span class="meta-item">Key: Am</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 4 -->
+                <div class="portfolio-item" data-category="usa">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <div class="image-placeholder portfolio-placeholder">
+                                <div class="music-icon">🎹</div>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <a href="#" class="play-btn">▶</a>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <div class="portfolio-category">USA Hip-Hop</div>
+                            <h3 class="portfolio-title">Atlanta Nights</h3>
+                            <p class="portfolio-desc">Trap banger with heavy 808s</p>
+                            <div class="portfolio-meta">
+                                <span class="meta-item">BPM: 145</span>
+                                <span class="meta-item">Key: Cm</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 5 -->
+                <div class="portfolio-item" data-category="collab">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <div class="image-placeholder portfolio-placeholder">
+                                <div class="music-icon">🎼</div>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <a href="#" class="play-btn">▶</a>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <div class="portfolio-category">Collaboration</div>
+                            <h3 class="portfolio-title">Transatlantic</h3>
+                            <p class="portfolio-desc">UK x USA fusion project</p>
+                            <div class="portfolio-meta">
+                                <span class="meta-item">BPM: 130</span>
+                                <span class="meta-item">Key: Dm</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 6 -->
+                <div class="portfolio-item" data-category="uk">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <div class="image-placeholder portfolio-placeholder">
+                                <div class="music-icon">🎸</div>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <a href="#" class="play-btn">▶</a>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <div class="portfolio-category">UK Rap</div>
+                            <h3 class="portfolio-title">Manchester Sound</h3>
+                            <p class="portfolio-desc">Alternative rap production</p>
+                            <div class="portfolio-meta">
+                                <span class="meta-item">BPM: 120</span>
+                                <span class="meta-item">Key: Em</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">EXPERTISE</div>
+                <h2 class="section-title">Skills & Services</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🎛️</div>
+                    <h3>Beat Production</h3>
+                    <p>Custom beat making for UK Drill, US Trap, and Grime genres with professional sound design.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🎚️</div>
+                    <h3>Mixing & Mastering</h3>
+                    <p>Professional audio engineering services to ensure radio-ready quality for all platforms.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🎵</div>
+                    <h3>UK Rap Specialization</h3>
+                    <p>Deep understanding of UK drill, grime, and afro-uk rap culture and sound characteristics.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🎤</div>
+                    <h3>US Hip-Hop Production</h3>
+                    <p>Authentic East Coast, West Coast, and Southern hip-hop production styles.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">💻</div>
+                    <h3>Digital Audio Workstation</h3>
+                    <p>Expert in FL Studio, Ableton Live, and Logic Pro for professional music production.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🤝</div>
+                    <h3>Artist Development</h3>
+                    <p>Collaborative approach to help artists develop their unique sound and brand identity.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">CONTACT</div>
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Work Together</h3>
+                    <p>
+                        Interested in collaborating or need professional music production? 
+                        Feel free to reach out through any of the channels below.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div>
+                                <strong>Email</strong>
+                                <p>nualda.varcetti@email.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📱</div>
+                            <div>
+                                <strong>Phone</strong>
+                                <p>+62 812 3456 7890</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <strong>Location</strong>
+                                <p>Jakarta, Indonesia</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link" title="Instagram">IG</a>
+                        <a href="#" class="social-link" title="YouTube">YT</a>
+                        <a href="#" class="social-link" title="Spotify">SP</a>
+                        <a href="#" class="social-link" title="SoundCloud">SC</a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">NV</span>
+                    <span class="logo-full">NUALDA VARCETTI</span>
+                </div>
+                <p class="footer-text">
+                    &copy; 2024 Nualda Varcetti. All Rights Reserved. | Music Producer | UK & USA Rap Specialist
+                </p>
+                <div class="footer-decoration">
+                    <div class="flag-stripe uk-stripe"></div>
+                    <div class="flag-stripe usa-stripe"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
